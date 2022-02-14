@@ -7,8 +7,8 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import Http404
 
 from wagtail.core.fields import RichTextField
-from wagtail.wagtailcore.models import Page
-from wagtail.wagtailcore.url_routing import RouteResult
+from wagtail.core.models import Page
+from wagtail.core.url_routing import RouteResult
 
 from modelcluster.fields import ParentalKey
 from modelcluster.tags import ClusterTaggableManager
