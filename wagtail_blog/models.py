@@ -6,7 +6,7 @@ from django.conf import settings
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import Http404
 
-from wagtail.wagtailcore.fields import RichTextField
+from wagtail.core.fields import RichTextField
 from wagtail.wagtailcore.models import Page
 from wagtail.wagtailcore.url_routing import RouteResult
 
