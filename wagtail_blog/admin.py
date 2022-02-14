@@ -1,7 +1,7 @@
 from wagtail.admin.edit_handlers import FieldPanel
 from wagtail.images.edit_handlers import ImageChooserPanel
 
-from models import BlogPage, BlogIndexPage
+from wagtail_blog.models import BlogPage, BlogIndexPage
 
 
 # Add your Wagtail panels here.
