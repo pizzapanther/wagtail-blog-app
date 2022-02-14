@@ -5,7 +5,7 @@ from django.db import models, migrations
 import django.db.models.deletion
 import modelcluster.fields
 import datetime
-import wagtail.wagtailcore.fields
+import wagtail.core.fields
 from django.conf import settings
 import modelcluster.tags
 
