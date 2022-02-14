@@ -1,5 +1,5 @@
-from wagtail.wagtailadmin.edit_handlers import FieldPanel
-from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
+from wagtail.admin.edit_handlers import FieldPanel
+from wagtail.images.edit_handlers import ImageChooserPanel
 
 from models import BlogPage, BlogIndexPage
 
